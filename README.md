@@ -1,13 +1,13 @@
 # FinProject_DataSciFundamentals
 
-##Introduction
+## Introduction
 
-##Selection of Data
+## Selection of Data
 
-##Methods
+## Methods
 
-##Results
+## Results
 
-##Discussion
+## Discussion
 
-##Conclusion
+## Conclusion
