@@ -19,7 +19,7 @@ After deliberation as to the type of data we wanted to work with, we settled on 
 * The sales for all other countries (in millions)
 * The global/total sales overall (in millions)
 
-
+While our data was relatively clean, we still had about 2% (roughly 350 datapoints) of missing or N/A data. While much of this data was well enough down in the ranking to not have much of an effect on our final outcome, we opted to fill in a large chunk of this missing data by hand. The missing data was contained almost entirely in release year and/or publisher which are can be easily fact checked and filled in. By this effort did we bring the about 350 missing values down to 139 values, which is under 1% of our data. After bringing it to this point, we decided that our data was good enough to properly work with and went on to setting it up for analysis of our topic questions.
 
 ## Methods
 
