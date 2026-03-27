@@ -2,12 +2,17 @@
 
 ## Introduction
 
-The purpose of this project was to give us expereince with finding, cleaning, querying, and analyzing a dataset to build upon the skills we have learned throughout the semseter. 
+The purpose of this project was to give us expereince with finding, cleaning, querying, and analyzing a dataset to build upon the skills we have learned throughout the semseter. We were tasked with locating a dataset, creating and answering five research questions, applying a machine learning technique, and creating this documentation. After some deliberation amongst our group we settled on a dataset of video game sales from Kaggle. Following our decision be began to create our guiding questions and settled on these 5:
+1 * Is there any correlation between best preforming genere and platform?
+2 * How do the top sales of NA, JP, EU, and other differ from each other?
+3 * 
+4 * Does having a well known publisher correlate to having good sales?
+5 * Does platform affect the sales of a game?
 
 ## Selection of Data
 
 ### Dataset Overview
-After deliberation as to the type of data we wanted to work with, we settled on this dataset about video games sales from [Kaggle](https://www.kaggle.com/datasets/gregorut/videogamesales?resource=download). We chose this both because of interest and due to the fact that the large amount of numerical data contained within would allow us to analyze our data without too much transformation. Our dataset has several categories:
+We chose our [dataset](https://www.kaggle.com/datasets/gregorut/videogamesales?resource=download both because of interest and due to the fact that the large amount of numerical data contained within would allow us to analyze our data without too much transformation. Our dataset has several categories:
 <img width="1182" height="450" alt="image" src="https://github.com/user-attachments/assets/0eb7cc61-0bd3-4387-97c9-647e69c6189e" />
 * The Ranking/Index
 * The name of the game at said place
