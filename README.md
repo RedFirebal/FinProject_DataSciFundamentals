@@ -29,6 +29,11 @@ We chose our [dataset](https://www.kaggle.com/datasets/gregorut/videogamesales) 
 
 While our data was relatively clean, we still had about 2% (roughly 350 datapoints) of missing or N/A data. While much of this data was well enough down in the ranking to not have much of an effect on our final outcome, we opted to fill in a large chunk of this missing data by hand. The missing data was contained almost entirely in release year and/or publisher which are can be easily fact checked and filled in. By this effort did we bring the about 350 missing values down to 139 values, which is under 1% of our data. After bringing it to this point, we decided that our data was good enough to properly work with and went on to setting it up for analysis of our topic questions.
 
+### Data Oddities
+
+Our dataset does have a few oddities in it which we cant really fix or edit. The biggest oddity is that our data is missing sources from particular years, specificly 1979, 2018, and 2019. Some years also have very low numbers of logged releases which will likely affect our conclusions, likely not signifigantly but at least notably.
+
+
 ## Methods
 
 ## Results
