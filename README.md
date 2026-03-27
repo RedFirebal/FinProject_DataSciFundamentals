@@ -12,7 +12,7 @@ The purpose of this project was to give us expereince with finding, cleaning, qu
 ## Selection of Data
 
 ### Dataset Overview
-We chose our [dataset](https://www.kaggle.com/datasets/gregorut/videogamesales?resource=download) both because of interest and due to the fact that the large amount of numerical data contained within would allow us to analyze our data without too much transformation. Our dataset has several categories:
+We chose our [dataset](https://www.kaggle.com/datasets/gregorut/videogamesales) both because of interest and due to the fact that the large amount of numerical data contained within would allow us to analyze our data without too much transformation. Our dataset has several categories:
 <img width="1182" height="450" alt="image" src="https://github.com/user-attachments/assets/0eb7cc61-0bd3-4387-97c9-647e69c6189e" />
 * The Ranking/Index
 * The name of the game at said place
