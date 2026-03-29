@@ -9,6 +9,9 @@ The purpose of this project was to give us expereince with finding, cleaning, qu
 * Does having a well known publisher correlate to having good sales?
 * Does platform affect the sales of a game?
 
+As for applying a machine learning technique, we settled on investigating:
+* Does a games release year predict its global sales?
+
 ## Selection of Data
 
 ### Dataset Overview
@@ -35,6 +38,19 @@ Our dataset does have a few oddities in it which we cant really fix or edit. The
 
 
 ## Methods
+### Packages
+
+* Pandas
+* Numpy
+* Matplotlib
+
+### Charting/Machine Learning Applied
+
+* Bar Chart
+* Line Plot
+* Scatter Plot
+* Linear Regression
+
 
 ## Results
 
@@ -47,6 +63,8 @@ Our dataset does have a few oddities in it which we cant really fix or edit. The
 ### Question 4:
 
 ### Question 5:
+
+### Question 6: 
 
 ## Discussion
 
