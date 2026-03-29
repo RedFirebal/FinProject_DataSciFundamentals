@@ -54,7 +54,11 @@ Our dataset does have a few oddities in it which we cant really fix or edit. The
 
 ## Results
 
+Here is what we discovered after working with our dataset for a while.
+
 ### Question 1:
+
+
 
 ### Question 2:
 
