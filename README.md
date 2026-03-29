@@ -5,7 +5,7 @@
 The purpose of this project was to give us expereince with finding, cleaning, querying, and analyzing a dataset to build upon the skills we have learned throughout the semseter. We were tasked with locating a dataset, creating and answering five research questions, applying a machine learning technique, and creating this documentation. After some deliberation amongst our group we settled on a dataset of video game sales from Kaggle. Following our decision be began to create our guiding questions and settled on these 5:
 * Is there any correlation between best preforming genere and platform?
 * How do the top sales of NA, JP, EU, and other differ from each other?
-* 
+* Does year of introduction affect the sales and preformance of a game?
 * Does having a well known publisher correlate to having good sales?
 * Does platform affect the sales of a game?
 
