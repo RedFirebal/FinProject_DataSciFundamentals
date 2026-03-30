@@ -102,6 +102,4 @@ After making a few different generations of this chart, it has become abundantly
 
 
 
-## Discussion
-
 ## Conclusion
