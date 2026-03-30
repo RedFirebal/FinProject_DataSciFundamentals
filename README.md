@@ -81,6 +81,7 @@ Here is what we discovered after working with our dataset for a while.
 ### Question 5 (Does platform affect the sales of a game?):
 
 Code:
+
 <img width="817" height="616" alt="image" src="https://github.com/user-attachments/assets/c965a09a-827b-4924-a2cf-605a2d9d4d7b" />
 <img width="585" height="445" alt="image" src="https://github.com/user-attachments/assets/30e7134d-a177-41ec-805f-30e3058c1b1b" />
 
