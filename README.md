@@ -70,7 +70,7 @@ Here is what we discovered after working with our dataset for a while.
 
 
 
-### Question 3 (Does year of introduction affect the sales and preformance of a Game?):
+### Question 3 (How does the average game sales change year over year?):
 
 
 
