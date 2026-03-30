@@ -62,19 +62,19 @@ To make work on our dataset easier, we decided to break up our original dataset 
 
 Here is what we discovered after working with our dataset for a while.
 
-### Question 1:
+### Question 1 (Is there any correlation between best preforming genere and platform?):
 
 
 
-### Question 2:
+### Question 2 (How do top sales differ by region?):
 
 
 
-### Question 3:
+### Question 3 (Does year of introduction affect the sales and preformance of a Game?):
 
 
 
-### Question 4:
+### Question 4 (Does having a large publisher size of released games correlate to having good sales?):
 
 
 
@@ -98,7 +98,7 @@ Example:
 After making a few different generations of this chart, it has become abundantly clear that there is almost always some level of difference in preformance across platform. Considering that our data works in millions, every difference is usually in terms of thousands to hundreds of thousands of dollars. Notable differences tend to show up in every generation, showcasing that games tend to sell much better on particular platforms rather than noting similar sales across all platforms. This could be due to several factors ranging from audiances on particular platforms being attracted to certain aspects of a game to that particular platform offering a unique experience with a particular game. 
 
 
-### Question 6: 
+### Question 6 (Does a games release year predict its global sales?): 
 
 
 
