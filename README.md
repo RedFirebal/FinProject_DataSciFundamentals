@@ -53,7 +53,7 @@ Our dataset does have a few oddities in it which we cant really fix or edit. The
 
 ### Specific Analysis Features
 
-To make work on our dataset easier, we decided to break up our original dataset into several subframes in our initialization. This was done to allow for both consiceness in our question set up and clarity in exactly what data we were working with during every step. 
+To make work on our dataset easier, we decided to break up our original dataset into several subframes in our initialization. While most of these subframes were not utilized, they were a great initial foray into our data. By setting these up, we were able to further understand what information our data contained, see several different ways to set up later frames, and have shorthands for particular data groups to look at when asking questions.
 <img width="1113" height="361" alt="image" src="https://github.com/user-attachments/assets/1fcc574f-db62-4641-bdff-c7f7ec87ca1a" />
 
 
@@ -68,13 +68,27 @@ Here is what we discovered after working with our dataset for a while.
 
 ### Question 2:
 
+
+
 ### Question 3:
+
+
 
 ### Question 4:
 
-### Question 5:
+
+
+### Question 5 (Does platform affect the sales of a game?):
+
+Code:
+<img width="817" height="616" alt="image" src="https://github.com/user-attachments/assets/c965a09a-827b-4924-a2cf-605a2d9d4d7b" />
+<img width="585" height="445" alt="image" src="https://github.com/user-attachments/assets/30e7134d-a177-41ec-805f-30e3058c1b1b" />
+
+
 
 ### Question 6: 
+
+
 
 ## Discussion
 
