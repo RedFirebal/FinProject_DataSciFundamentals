@@ -51,6 +51,12 @@ Our dataset does have a few oddities in it which we cant really fix or edit. The
 * Scatter Plot
 * Linear Regression
 
+### Specific Analysis Features
+
+To make work on our dataset easier, we decided to break up our original dataset into several subframes in our initialization. This was done to allow for both consiceness in our question set up and clarity in exactly what data we were working with during every step. 
+<img width="1113" height="361" alt="image" src="https://github.com/user-attachments/assets/1fcc574f-db62-4641-bdff-c7f7ec87ca1a" />
+
+
 
 ## Results
 
