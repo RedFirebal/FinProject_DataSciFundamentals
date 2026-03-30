@@ -80,11 +80,22 @@ Here is what we discovered after working with our dataset for a while.
 
 ### Question 5 (Does platform affect the sales of a game?):
 
-Code:
+Understanding how a game preforms across platforms is relatively simple in concept. We first need to decide exactly what platforms we are comparing. For the purposes of our analysis, we decided to look at the 7th console generation (The XBox 360, the Playstation 3, and the Nintendo Wii) and compare games shared across these consoles would be placed into a shared frame.
 
-<img width="817" height="616" alt="image" src="https://github.com/user-attachments/assets/c965a09a-827b-4924-a2cf-605a2d9d4d7b" />
-<img width="585" height="445" alt="image" src="https://github.com/user-attachments/assets/30e7134d-a177-41ec-805f-30e3058c1b1b" />
+<img width="763" height="201" alt="image" src="https://github.com/user-attachments/assets/f8b298eb-c88a-4e49-9c36-fd0b792c9c46" />
 
+Then we generate a randomized list of names from this shared frame and produce shorthand frames per console containing only the information of these names.
+
+<img width="586" height="319" alt="image" src="https://github.com/user-attachments/assets/0850241e-5088-40a5-b96c-dd41855128a1" />
+
+After plotting this information, we can compare the sales of each game.
+Example:
+
+<img width="1511" height="1011" alt="Q5_Chart_Example" src="https://github.com/user-attachments/assets/ace1bec0-a47b-44c5-8269-1af9b9372da0" />
+
+
+
+After making a few different generations of this chart, it has become abundantly clear that there is almost always some level of difference in preformance across platform. Considering that our data works in millions, every difference is usually in terms of thousands to hundreds of thousands of dollars. Notable differences tend to show up in every generation, showcasing that games tend to sell much better on particular platforms rather than noting similar sales across all platforms. This could be due to several factors ranging from audiances on particular platforms being attracted to certain aspects of a game to that particular platform offering a unique experience with a particular game. 
 
 
 ### Question 6: 
