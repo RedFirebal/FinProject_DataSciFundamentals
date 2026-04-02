@@ -66,7 +66,15 @@ Here is what we discovered after working with our dataset for a while.
 
 ### Question 1 (Is there any correlation between best preforming genere and platform?):
 
+To properly see if there is correlation between top genre and top platform preformance, we first need to properly visualize genre preformance across our top platforms. To do this we first created a handful of frames to properly visualize the top four of each category.
 
+<img width="876" height="288" alt="image" src="https://github.com/user-attachments/assets/e86649f4-7917-4ea0-8bb4-abf68488405a" />
+
+The first set of frames (titled ___frame) show every game in the top four genres on the top four platforms. The second set (titled ___total) show the total sales of each of the top four genres across the top four platforms. Following the creation of these frames, we created two 2x2 figures to show both the individual sales and the total sales to see what relationships we could form. We decided to split these frames into two figures rather than one 4x2 figure to keep a reasonable sizing across each chart.
+
+<img width="841" height="855" alt="image" src="https://github.com/user-attachments/assets/da62bc19-68d8-44a5-8ee1-18f48a794438" />
+
+By looking over the data presented in our charts, we were able to come to two conclusions. The first of which is there is a clear correlation between genre and platform preformance. Genre preformance across platform varries heavily, sometimes preforming signifigantly better on particular platforms over others. There can be many reasons for this, such as unique experiences for particular types of games on certain platforms or certain platforms advertizing themselves primarially on a particular genre, but our data does not have any clear information on these factors. We also concluded that individual outliers, while certainly heavily impacting their respective genres preformance, tend to not sell in the best selling genres. Almost every chart presents a clear best preforming game in a specific genre (the PS3 has a clear outlier in action)
 
 ### Question 2 (How do top sales differ by region?):
 
