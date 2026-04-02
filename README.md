@@ -1,6 +1,8 @@
 # Final Project for Data Science Fundamentals - Sean, Jake D, and Charles
 
+
 ## Introduction
+
 
 The purpose of this project was to give us expereince with finding, cleaning, querying, and analyzing a dataset to build upon the skills we have learned throughout the semseter. We were tasked with locating a dataset, creating and answering five research questions, applying a machine learning technique, and creating this documentation. After some deliberation amongst our group we settled on a dataset of video game sales from Kaggle. Following our decision be began to create our guiding questions and settled on these 5:
 * Is there any correlation between best preforming genere and platform?
@@ -9,12 +11,17 @@ The purpose of this project was to give us expereince with finding, cleaning, qu
 * Does having a well known publisher correlate to having good sales?
 * Does platform affect the sales of a game?
 
+
 As for applying a machine learning technique, we settled on investigating:
 * Does a games release year predict its global sales?
+  
 
 ## Selection of Data
 
+
 ### Dataset Overview
+
+
 We chose our [dataset](https://www.kaggle.com/datasets/gregorut/videogamesales) both because of interest and due to the fact that the large amount of numerical data contained within would allow us to analyze our data without too much transformation. Our dataset has several categories:
 <img width="1182" height="450" alt="image" src="https://github.com/user-attachments/assets/0eb7cc61-0bd3-4387-97c9-647e69c6189e" />
 * The Ranking/Index
@@ -28,22 +35,31 @@ We chose our [dataset](https://www.kaggle.com/datasets/gregorut/videogamesales) 
 * The sales for all other countries (in millions)
 * The global/total sales overall (in millions)
 
+
 ### Dataset Cleaning
+
 
 While our data was relatively clean, we still had about 2% (roughly 350 datapoints) of missing or N/A data. While much of this data was well enough down in the ranking to not have much of an effect on our final outcome, we opted to fill in a large chunk of this missing data by hand. The missing data was contained almost entirely in release year and/or publisher which are can be easily fact checked and filled in. By this effort did we bring the about 350 missing values down to 139 values, which is under 1% of our data. After bringing it to this point, we decided that our data was good enough to properly work with and went on to setting it up for analysis of our topic questions.
 
+
+
 ### Data Oddities
+
 
 Our dataset does have a few oddities in it which we cant really fix or edit. The biggest oddity is that our data is missing sources from particular years, specificly 1979, 2018, and 2019. Some years also have very low numbers of logged releases which will likely affect our conclusions, likely not signifigantly but at least notably.
 
 
 ## Methods
+
+
 ### Packages
+
 
 * Pandas
 * Numpy
 * Matplotlib
 * Seaborn
+  
 
 ### Charting/Machine Learning Applied
 
@@ -52,8 +68,10 @@ Our dataset does have a few oddities in it which we cant really fix or edit. The
 * Scatter Plot
 * Strip Plot
 * Linear Regression
+  
 
 ### Specific Analysis Features
+
 
 To make work on our dataset easier, we decided to break up our original dataset into several subframes in our initialization. While most of these subframes were not utilized, they were a great initial foray into our data. By setting these up, we were able to further understand what information our data contained, see several different ways to set up later frames, and have shorthands for particular data groups to look at when asking questions.
 <img width="1113" height="361" alt="image" src="https://github.com/user-attachments/assets/1fcc574f-db62-4641-bdff-c7f7ec87ca1a" />
@@ -62,7 +80,9 @@ To make work on our dataset easier, we decided to break up our original dataset 
 
 ## Results
 
+
 Here is what we discovered after working with our dataset for a while.
+
 
 ### Question 1 (Is there any correlation between best preforming genere and platform?):
 
@@ -74,7 +94,8 @@ The first set of frames (titled ___frame) show every game in the top four genres
 
 <img width="841" height="855" alt="image" src="https://github.com/user-attachments/assets/da62bc19-68d8-44a5-8ee1-18f48a794438" />
 
-By looking over the data presented in our charts, we were able to come to two conclusions. The first of which is there is a clear correlation between genre and platform preformance. Genre preformance across platform varries heavily, sometimes preforming signifigantly better on particular platforms over others. There can be many reasons for this, such as unique experiences for particular types of games on certain platforms or certain platforms advertizing themselves primarially on a particular genre, but our data does not have any clear information on these factors. We also concluded that individual outliers, while certainly heavily impacting their respective genres preformance, tend to not sell in the best selling genres. Almost every chart presents a clear best preforming game in a specific genre (the PS3 has a clear outlier in action)
+By looking over the data presented in our charts, we were able to come to one main conclusion. The first of which is there is a clear correlation between genre and platform preformance. Genre preformance across platform varries heavily, sometimes preforming signifigantly better on particular platforms over others. There can be many reasons for this, such as unique experiences for particular types of games on certain platforms or certain platforms advertizing themselves primarially on a particular genre, but our data does not have any clear information on these factors to find a clear answer.
+
 
 ### Question 2 (How do top sales differ by region?):
 
