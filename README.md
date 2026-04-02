@@ -43,12 +43,14 @@ Our dataset does have a few oddities in it which we cant really fix or edit. The
 * Pandas
 * Numpy
 * Matplotlib
+* Seaborn
 
 ### Charting/Machine Learning Applied
 
 * Bar Chart
 * Line Plot
 * Scatter Plot
+* Strip Plot
 * Linear Regression
 
 ### Specific Analysis Features
@@ -103,3 +105,5 @@ After making a few different generations of this chart, it has become abundantly
 
 
 ## Conclusion
+
+
