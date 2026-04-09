@@ -99,13 +99,27 @@ By looking over the data presented in our charts, we were able to come to one ma
 
 ### Question 2 (How do top sales differ by region?):
 
+To see how the top games sold in each region, we set up a dataframe with each of the region's sales data, and name, for the top five selling games globally. 
+
 ![Screenshot of question 2's code](https://github.com/RedFirebal/FinProject_DataSciFundamentals/blob/main/Question_2_Code.png)
+
+The dataframe was used to create a bar graph with each game along the x-axis and each region's sales data(in millions of dollars) for that game along the y-axis. The graph was limited to the top five best selling games for visual clarity.
 
 ![Screenshot of question 2's graph](https://github.com/RedFirebal/FinProject_DataSciFundamentals/blob/main/Question_2_Graph.png)
 
+When we look at the data presented, we came to the conclusion that North America and the European Union were the driving factor in determining a game's global sales. This is not surprising as they are the two wealthiest continents and the only other measured catagory is Japan, which has a fraction of the population. It is important to note that this data set is only for console games and was published in 2017, as new games and other platforms, such as mobile and PC, would likely have different results.
+
 ### Question 3 (How does the average game sales change year over year?):
 
+To see how the average game sold over time, we modified the dataframe from the previous question, changing the name of the game for the year and removing the limit on how many games were displayed. 
 
+![Screenshot of question 3's code](https://github.com/RedFirebal/FinProject_DataSciFundamentals/blob/main/Question_3_Code.png)
+
+To aggregate every game by it's release year, we used the groupby function to sum the sales of each game released that year. Then, we took the average of each year's total sales and plotted each region's average sales per year.
+
+![Screenshot of question 3's graph](https://github.com/RedFirebal/FinProject_DataSciFundamentals/blob/main/Question_3_Graph.png)
+
+When we look at the data, we notice that games had a very high average sale count in the mid 1980's and early 1990's(with a previous spike in the late 1970's for the North American audience specifically) with no year having an average sales of above half a million dollars. From this, we can conclude a few things. The first is that, intuitively, older games have had more time to make sales. The second is that the data set was published in 2017 and consoles such as the Xbox 1 and PS4 were not included(these consoles were released in 2013). New games are typically released on new platforms and the absence of these consoles from the dataset  skews the dataset toward older games. 
 
 ### Question 4 (Does having a large publisher size of released games correlate to having good sales?):
 
