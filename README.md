@@ -99,7 +99,7 @@ By looking over the data presented in our charts, we were able to come to one ma
 
 ### Question 2 (How do top sales differ by region?):
 
-![Screenshot of question 2's code](/blob/main/Question_2_Code.png)
+![Screenshot of question 2's code](https://github.com/RedFirebal/FinProject_DataSciFundamentals/blob/main/Question_2_Code.png)
 
 ![Screenshot of question 2's graph](/blob/main/Question_2_Graph.png)
 
