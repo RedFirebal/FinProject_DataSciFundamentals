@@ -123,7 +123,7 @@ When we look at the data, we notice that games had a very high average sale coun
 
 ### Question 4 (Does having a large publisher size of released games correlate to having good sales?):
 
-
+<img src="images/q4plot.png" width="700">
 
 ### Question 5 (Does platform affect the sales of a game?):
 
