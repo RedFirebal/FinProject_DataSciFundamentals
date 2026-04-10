@@ -123,8 +123,11 @@ When we look at the data, we notice that games had a very high average sale coun
 
 ### Question 4 (Does having a large publisher size of released games correlate to having good sales?):
 
+We asked this question to see whether game publishers make more money by releasing more games. We expected big publishers to have many games and high sales, and maybe some smaller companies making fewer games but lower profits than big developers. The code below shows that we grouped all publishers by total games released, sorted them, and plotted their sales.
+<img src="q4code.png" width="700">
+After sorting, we decided to show the top 3, middle 3, and bottom 3 publishers in a scatter plot. Using 4 separate scatter plots, we combined them into a cohesive model.
 <img src="q4plot.png" width="700">
-
+Many of the data points there are expected, like the top 3 game publishers being companies with their own consoles and a lot of first-party games. The interesting part is that the middle 3 and the bottom 3 are very close together. Meaning there is a large gap in the data between the top 3 and the middle 3, and the best-selling publishers can also make hardware and publish many games. Smaller studios, though, can still have financial success with fewer releases and may have more losses if they create too many games.
 ### Question 5 (Does platform affect the sales of a game?):
 
 Understanding how a game preforms across platforms is relatively simple in concept. We first need to decide exactly what platforms we are comparing. For the purposes of our analysis, we decided to look at the 7th console generation (The XBox 360, the Playstation 3, and the Nintendo Wii) and compare games shared across these consoles would be placed into a shared frame.
@@ -146,8 +149,11 @@ After making a few different generations of this chart, it has become abundantly
 
 
 ### Question 6 (Does a games release year predict its global sales?): 
-
-
+We wondered if possibly the year of release could affect the sales of videogames. The early years might not have been appealing to certain audiences, such as the first videogame consoles being marketed as childrens toys. We expected that past the 90s and into the 2000s there would be more demand for videogames and and as more publishers released games the sales would always increase every year. 
+<img src="q5code.png" width="700">
+The code here grouped data by year to count the number of released games per year and applied regression to show the trend​
+<img src="q5plot.png" width="700">
+What we can learn from this graph is that there is always an upward trend showing the high demand for videogames and the release year is a decent predictor for checking sales. Games may have been more easier at the start of the 2000s which shows the larger jump there, the line captures the growth of sales but it may not be consistent all the time.
 
 ## Conclusion
 
