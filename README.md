@@ -124,9 +124,17 @@ When we look at the data, we notice that games had a very high average sale coun
 ### Question 4 (Does having a large publisher size of released games correlate to having good sales?):
 
 We asked this question to see whether game publishers make more money by releasing more games. We expected big publishers to have many games and high sales, and maybe some smaller companies making fewer games but lower profits than big developers. The code below shows that we grouped all publishers by total games released, sorted them, and plotted their sales.
+
+
 <img src="q4code.png" width="700">
+
+
 After sorting, we decided to show the top 3, middle 3, and bottom 3 publishers in a scatter plot. Using 4 separate scatter plots, we combined them into a cohesive model.
+
+
 <img src="q4plot.png" width="700">
+
+
 Many of the data points there are expected, like the top 3 game publishers being companies with their own consoles and a lot of first-party games. The interesting part is that the middle 3 and the bottom 3 are very close together. Meaning there is a large gap in the data between the top 3 and the middle 3, and the best-selling publishers can also make hardware and publish many games. Smaller studios, though, can still have financial success with fewer releases and may have more losses if they create too many games.
 ### Question 5 (Does platform affect the sales of a game?):
 
@@ -136,7 +144,7 @@ Understanding how a game preforms across platforms is relatively simple in conce
 
 Then we generate a randomized list of names from this shared frame and produce shorthand frames per console containing only the information of these names.
 
-<img width="586" height="319" alt="image" src="q5_raneom_name_grab.png" />
+<img width="586" height="319" alt="image" src="q5_random_name_grab.png" />
 
 After plotting this information, we can compare the sales of each game.
 Example:
