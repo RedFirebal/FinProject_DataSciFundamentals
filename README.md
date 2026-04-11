@@ -1,4 +1,4 @@
-# Final Project for Data Science Fundamentals - Sean, Jake D, and Charles
+# Final Project for Data Science Fundamentals - Sean T, Jake D, and Charles C
 
 
 ## Introduction
