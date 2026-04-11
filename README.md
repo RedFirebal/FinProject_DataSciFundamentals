@@ -74,7 +74,7 @@ Our dataset does have a few oddities in it which we cant really fix or edit. The
 
 
 To make work on our dataset easier, we decided to break up our original dataset into several subframes in our initialization. While most of these subframes were not utilized, they were a great initial foray into our data. By setting these up, we were able to further understand what information our data contained, see several different ways to set up later frames, and have shorthands for particular data groups to look at when asking questions.
-<img width="1113" height="361" alt="image" src="Main Frame Setup + Subframes" />
+<img width="1113" height="361" alt="image" src="Main Frame Setup + Subframes.png" />
 
 
 
@@ -88,11 +88,11 @@ Here is what we discovered after working with our dataset for a while.
 
 To properly see if there is correlation between top genre and top platform preformance, we first need to properly visualize genre preformance across our top platforms. To do this we first created a handful of frames to properly visualize the top four of each category.
 
-<img width="876" height="288" alt="image" src="q1_frame_setup" />
+<img width="876" height="288" alt="image" src="q1_frame_setup.png" />
 
 The first set of frames (titled ___frame) show every game in the top four genres on the top four platforms. The second set (titled ___total) show the total sales of each of the top four genres across the top four platforms. Following the creation of these frames, we created two 2x2 figures to show both the individual sales and the total sales to see what relationships we could form. We decided to split these frames into two figures rather than one 4x2 figure to keep a reasonable sizing across each chart.
 
-<img width="841" height="855" alt="image" src="q1_chart1" />
+<img width="841" height="855" alt="image" src="q1_chart1.png" />
 
 By looking over the data presented in our charts, we were able to come to one main conclusion. The first of which is there is a clear correlation between genre and platform preformance. Genre preformance across platform varries heavily, sometimes preforming signifigantly better on particular platforms over others. There can be many reasons for this, such as unique experiences for particular types of games on certain platforms or certain platforms advertizing themselves primarially on a particular genre, but our data does not have any clear information on these factors to find a clear answer.
 
@@ -132,16 +132,16 @@ Many of the data points there are expected, like the top 3 game publishers being
 
 Understanding how a game preforms across platforms is relatively simple in concept. We first need to decide exactly what platforms we are comparing. For the purposes of our analysis, we decided to look at the 7th console generation (The XBox 360, the Playstation 3, and the Nintendo Wii) and compare games shared across these consoles would be placed into a shared frame.
 
-<img width="763" height="201" alt="image" src="q5_frame" />
+<img width="763" height="201" alt="image" src="q5_frame.png" />
 
 Then we generate a randomized list of names from this shared frame and produce shorthand frames per console containing only the information of these names.
 
-<img width="586" height="319" alt="image" src="q5_raneom_name_grab" />
+<img width="586" height="319" alt="image" src="q5_raneom_name_grab.png" />
 
 After plotting this information, we can compare the sales of each game.
 Example:
 
-<img width="1511" height="1011" alt="Q5_Chart_Example" src="q5_example_chart" />
+<img width="1511" height="1011" alt="Q5_Chart_Example" src="q5_example_chart.png" />
 
 
 
