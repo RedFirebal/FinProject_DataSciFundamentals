@@ -169,4 +169,11 @@ What we can learn from this graph is that there is always an upward trend showin
 
 ## Conclusion
 
+After working with out data for a while, we came to several conclusions:
+
+* Due to several varying factors, audiances across different platforms generally have differing tastes in what games and genres they enjoy. Several games have poor preformance on one or two platforms yet make up for it by having good sales on another.
+* North America tends to have the most impact on a game's sales, Europe tends to be second, Japan third, and other regions tend to make up fractions of the sales. While this is likely because North American and European sales tend to encompass way more people than Japan, it is important to note that there are several highly profitable games where Japan outsells the EU, noting that popularity is not just population based and certain games can be signifigantly more important to some regions rather than others.
+* As time goes on, more and more games release per year. This opens the market for higher levels of demand while also decreasing the average sales per game due to the massive influx of new IPs and ideas. 
+
+If given the oppertunity, we'd like to expand our dataset by a few years and see how these questions and charts change. The last few years have seen a major increase in the number of games released per year and would prove interesting to see how they fare against the high-earning years outlined in our current dataset.
 
