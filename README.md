@@ -23,7 +23,7 @@ As for applying a machine learning technique, we settled on investigating:
 
 
 We chose our [dataset](https://www.kaggle.com/datasets/gregorut/videogamesales) both because of interest and due to the fact that the large amount of numerical data contained within would allow us to analyze our data without too much transformation. Our dataset has several categories:
-<img width="1182" height="450" alt="image" src"MainFrame.png" />
+<img width="1182" height="450" alt="image" src="MainFrame.png"/>
 * The Ranking/Index
 * The name of the game at said place
 * The platform the particular game was released on
