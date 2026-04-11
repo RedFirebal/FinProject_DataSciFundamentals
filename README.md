@@ -150,9 +150,9 @@ After making a few different generations of this chart, it has become abundantly
 
 ### Question 6 (Does a games release year predict its global sales?): 
 We wondered if possibly the year of release could affect the sales of videogames. The early years might not have been appealing to certain audiences, such as the first videogame consoles being marketed as childrens toys. We expected that past the 90s and into the 2000s there would be more demand for videogames and and as more publishers released games the sales would always increase every year. 
-<img src="q5code.png" width="700">
+<img src="q6code.png" width="700">
 The code here grouped data by year to count the number of released games per year and applied regression to show the trend​
-<img src="q5plot.png" width="700">
+<img src="q6plot.png" width="700">
 What we can learn from this graph is that there is always an upward trend showing the high demand for videogames and the release year is a decent predictor for checking sales. Games may have been more easier at the start of the 2000s which shows the larger jump there, the line captures the growth of sales but it may not be consistent all the time.
 
 ## Conclusion
